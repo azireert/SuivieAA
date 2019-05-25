@@ -74,6 +74,7 @@
                 android:id="@+id/timePicker1Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="timePickerClicked1"
                 android:textSize="12sp"
                 android:text="Heure arrivée" />
 
@@ -87,7 +88,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/checkBoxVisite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sur Rendez-vous ?" />
@@ -97,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:textSize="12sp"
                 android:layout_height="wrap_content"
-                android:onClick="timePickerClicked"
+                android:onClick="confirmClick"
                 android:text="Confirmer la visite" />
 
         </LinearLayout>
